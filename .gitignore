@@ -1,0 +1,62 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.h5
+*.pickle
+
+# Logs and debugging
+*.log
+*.out
+*.err
+
+# Temporary files and directories
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~*
+Thumbs.db
+.DS_Store
+
+# System files
+.vscode/
+.idea/
+*.iml
+
+# Test results
+*.coverage
+coverage.xml
+nosetests.xml
+test_results/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Machine learning model artifacts
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+
+# TensorFlow or PyTorch checkpoints
+checkpoint/
+checkpoints/
